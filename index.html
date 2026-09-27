@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Otong Uploader</title>
+<!-- CARA VERIFIKASI SEARCH CONSOLE: hapus tanda komentar di baris bawah, tempel kode dari Google -->
+<!-- <meta name="google-site-verification" content="TEMPEL-KODE-VERIFIKASI-DI-SINI" /> -->
+<style>
+  body{font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.65;
+       max-width:760px;margin:0 auto;padding:40px 20px;color:#1c1c1e;background:#fff}
+  h1{font-size:1.9rem;margin:0 0 .2em}
+  .sub{color:#6b6b70;margin:0 0 1.8em}
+  h2{font-size:1.15rem;margin-top:2em;border-bottom:1px solid #e6e6ea;padding-bottom:.3em}
+  ul{padding-left:1.2em}
+  code{background:#f2f2f5;padding:2px 6px;border-radius:4px;font-size:.9em}
+  footer{margin-top:3em;padding-top:1em;border-top:1px solid #e6e6ea;color:#6b6b70;font-size:.9rem}
+  a{color:#0b57d0}
+</style>
+</head>
+<body>
+
+<h1>Otong Uploader</h1>
+<p class="sub">A personal, self-hosted utility for publishing videos to its owner&rsquo;s own YouTube channel.</p>
+
+<h2>What this app does</h2>
+<p>
+Otong Uploader is a small tool used by a single person (its owner) to publish videos that he has
+produced himself to <strong>his own YouTube channel</strong>. It connects to the YouTube Data API v3
+with the owner&rsquo;s authorization and performs only the actions the owner explicitly asks for:
+</p>
+<ul>
+  <li>uploading a video file from the owner&rsquo;s computer or private server to his own channel;</li>
+  <li>setting the video&rsquo;s title, description, tags, category and privacy status;</li>
+  <li>updating the thumbnail and visibility of his own videos.</li>
+</ul>
+
+<h2>Who uses it</h2>
+<p>
+The app is <strong>not distributed to the public</strong> and is not offered as a service. It runs on
+the owner&rsquo;s own machines and is used only by the owner (fewer than 100 users). There is no
+sign-up, no user database and no third-party audience.
+</p>
+
+<h2>How it authorizes</h2>
+<p>
+The owner signs in with his own Google Account through Google&rsquo;s standard OAuth 2.0
+authorization screen and grants the YouTube scope
+<code>https://www.googleapis.com/auth/youtube.force-ssl</code>. The resulting OAuth credentials are
+stored locally on the owner&rsquo;s computer and private server, never on a public service. Otong
+Uploader has no server-side backend that collects or stores data from anyone else.
+</p>
+
+<h2>Policies</h2>
+<ul>
+  <li><a href="privacy.html">Privacy Policy</a></li>
+  <li><a href="terms.html">Terms of Service</a></li>
+</ul>
+
+<h2>Contact</h2>
+<p>Questions about this app: <a href="mailto:0lilil71717@gmail.com">0lilil71717@gmail.com</a></p>
+
+<footer>
+  Otong Uploader is an independent, personal-use tool. It is not affiliated with, endorsed by, or
+  sponsored by YouTube or Google LLC. &copy; 2026.
+</footer>
+
+</body>
+</html>
